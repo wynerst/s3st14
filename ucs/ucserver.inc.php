@@ -43,25 +43,10 @@ $sysconf['node']['slims-node'] = array(
     'id' => 'slims-node', // node id (must be UNIQUE, lowercase and not containing any spaces!)
     'name' => 'SLiMS Library', // node name
     'password' => '2325f677e21c1613909c953eb03c57352259cc5d', // this hash created with SHA1 algoritm
-    'baseurl' => 'http://localhost/senayan3-stable13', // node base URL
+    'baseurl' => 'http://localhost/senayan3-stable14', // node base URL
     'ip' => '' // IP address of node
     );
 
-$sysconf['node']['libsenayan'] = array(
-    'id' => 'libsenayan', // node id (must be UNIQUE, lowercase and not containing any spaces!)
-    'name' => 'Perpustakaan Pusat Kementrian Pendidikan Nasional', // node name
-    'password' => '2325f677e21c1613909c953eb03c57352259cc5d', // this hash created with SHA1 algoritm
-    'baseurl' => 'http://localhost/libsenayan', // node base URL
-    'ip' => '' // IP address of node
-    );
-
-$sysconf['node']['psjui'] = array(
-    'id' => 'psjui', // node id (must be UNIQUE, lowercase and not containing any spaces!)
-    'name' => 'Perpustakaan Pusat Studi Jepang UI', // node name
-    'password' => '2325f677e21c1613909c953eb03c57352259cc5d', // this hash created with SHA1 algoritm
-    'baseurl' => 'http://localhost/libpsjui', // node base URL
-    'ip' => '' // IP address of node
-    );
 /*
  * Add other nodes configuration below
  */
@@ -74,12 +59,4 @@ $sysconf['node']['psjui'] = array(
 //     'ip' => ''
 //     );
 
-// third node
-// $sysconf['node']['slims-node3'] = array(
-// 'id' => 'slims-node3',
-// 'name' => 'SLiMS Library 3',
-// 'password' => 'c8fed00eb2e87f1cee8e90ebbe870c190ac3848c',
-// 'base_url' => 'http://senayan.diknas.go.id/slims',
-// 'ip' => ''
-// );
 ?>
